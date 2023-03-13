@@ -31,5 +31,5 @@ def evaluate_expression(expression):
     else:
         print(result)
 
-expression = input()
+expression = sys.argv[1]
 evaluate_expression(expression)
